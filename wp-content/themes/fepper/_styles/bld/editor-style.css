@@ -1,0 +1,69 @@
+html {
+	background: white;
+}
+
+body {
+	margin: 10px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+ul,
+ol {
+	margin: 0 0 16px 1.2em
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+	margin-bottom: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin-bottom: 28px;
+	max-width: 100%;
+	padding: 0;
+	text-align: inherit;
+}
+
+.wp-caption-text {
+	color: #686868;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 7px;
+}
+
+.gallery-caption {
+	font-size: 13px;
+	margin: 0;
+}
+
+.alignleft {
+	float: left;
+	margin: 6px 28px 28px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 6px 0 28px 28px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto 28px;
+}
