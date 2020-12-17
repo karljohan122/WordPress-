@@ -20,7 +20,7 @@ function dc_valentines_heart() {
 	// Set the number of heart (more than 30 - 40 not recommended)
 	var heartmax=40
 	// Set the colors for the heart. Add as many colors as you like
-	var heartcolor=new Array("#c6041b", "#e10027", "#E1001c", "#C10227", "#Ea002d", "#ed1c38", "#75147D", "#B80BC6", "#BC1804", "#E011C1")
+	var heartcolor=new Array("#75147D", "#B80BC6", "#BC1804", "#E011C1")
 	// Set the fonts, that create the heartflakes. Add as many fonts as you like
 	var hearttype=new Array("Times","Arial","Times","Verdana", "Merriweather")
 	// Set the letter that creates your heartflake (recommended: * )
