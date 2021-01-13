@@ -18,19 +18,19 @@ function dc_valentines_heart() {
 	<!-- xmas_heart [ start ] -->
 	<script type="text/javascript">
 	// Set the number of heart (more than 30 - 40 not recommended)
-	var heartmax=40
+	var heartmax=50
 	// Set the colors for the heart. Add as many colors as you like
-	var heartcolor=new Array("#75147D", "#B80BC6", "#BC1804", "#E011C1")
+	var heartcolor=new Array("#75147D", "#B80BC6", "#BC1804", "#E011C1", "#1A11E0", "#11E02D", "#DAE011", "#11E0D3", "#6911E0", "#E0113A")
 	// Set the fonts, that create the heartflakes. Add as many fonts as you like
 	var hearttype=new Array("Times","Arial","Times","Verdana", "Merriweather")
 	// Set the letter that creates your heartflake (recommended: * )
 	var heartletter="<i class='dcfa dcfa-heart' style='color:"+heartcolor[randommaker(heartcolor.length)]+" !important;' ></i>"
 	// Set the speed of sinking (recommended values range from 0.3 to 2)
-	var sinkspeed=0.8
+	var sinkspeed=1.5
 	// Set the maximum-size of your heartflakes
-	var heartmaxsize=25
+	var heartmaxsize=50
 	// Set the minimal-size of your heartflakes
-	var heartminsize=12
+	var heartminsize=10
 	// Set the hearting-zone
 	// Set 1 for all-over-hearting, set 2 for left-side-hearting
 	// Set 3 for center-hearting, set 4 for right-side-hearting
